@@ -39,7 +39,7 @@ const App = () => {
   };
 
   return (
-    <div className="h-[100vh]"
+    <div className=""
     style={{
       display: "flex",
       justifyContent: "center",
@@ -49,7 +49,7 @@ const App = () => {
     }}
     >
       {/* <Navbar /> */}
-      <div className="max-w-md mx-auto mt-0 p-6 bg-gray-300 rounded-md shadow-md" >
+      <div className="max-w-md mx-auto mt-10 p-6 bg-gray-300 rounded-md shadow-md" >
         <h1 className="text-2xl font-semibold mb-4">Flood Prediction</h1>
         <div className="mb-4">
           <label htmlFor="rainFallMarToMay" className="block text-gray-700">
@@ -110,7 +110,7 @@ const App = () => {
         </button>
 
       </div>
-        {isFlood === "Flood" ? <h1 style={{fontSize:"2em"}}>There is a chance of flooding</h1> : isFlood === "NO Flood" ? <h1 style={{fontSize:"2em"}}>No Flood</h1> : ""}
+        {isFlood === "Flood" ? <h1 style={{fontSize:"2em"}}>There is a chance of flooding  </h1> : isFlood === "NO Flood" ? <h1 style={{fontSize:"2em"}} >No Flood</h1> : ""}
         {/* <Footer/> */}
     </div>
   );
